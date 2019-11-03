@@ -17,6 +17,5 @@ test:
 deploy:
   only:
     - master
-    - tags
   script:
     - curl -sL https://git.io/goreleaser | bash
